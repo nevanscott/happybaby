@@ -1,3 +1,5 @@
+require "jekyll-minimagick"
+
 require 'jekyll_asset_pipeline'
 
 module JekyllAssetPipeline

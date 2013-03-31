@@ -4,3 +4,12 @@ asset_pipeline:
   bundle: false
   compress: false
 markdown: kramdown
+mini_magick:
+  thumbnail:
+    source: assets/img/photos/original
+    destination: assets/img/photos/thumbnail
+    resize: "100x100"
+  medium:
+    source: assets/img/photos/original
+    destination: assets/img/photos/medium
+    resize: "600x400"

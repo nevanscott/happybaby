@@ -3,6 +3,51 @@ layout: page
 title: Photos
 permalink: /photos/
 section: photos
+galleries:
+  -
+    title: Happy Baby in Los Angeles event
+    photos:
+      -
+        src: la-busch-urbaniak.jpg
+        caption: Adam Busch interviews James Urbaniak, star of Mr. Gracie (Stephen Elliott’s short, based on a character from Happy Baby)
+      -
+        src: la-bearman.jpg
+        caption: Joshuah Bearman talks about how his Wired article turned into the movie Argo
+      -
+        src: la-loudermilk-apekina.jpg
+        caption: Brett Loudermilk threatens Katya Apekina with a sword...
+      -
+        src: la-loudermilk-apekina-2.jpg
+        caption: ...and then wows her—and the audience—by swallowing it
+      -
+        src: la-kinane.jpg
+        caption: The comedic stylings of Kyle Kinane
+      -
+        src: la-chadburn.jpg
+        caption: Melissa Chadburn
+      -
+        src: la-basket.jpg
+        caption: TK
+  -
+    title: Filming the Mr. Gracie short
+    photos:
+      -
+        src: gracie-1.jpg
+        caption: The caption
+      -
+        src: gracie-2.jpg
+        caption: The caption
+      -
+        src: gracie-3.jpg
+        caption: The caption
 ---
 
-This is the photos page.
+{% for gallery in page.galleries %}
+	<h2>{{ gallery.title }}</h2>
+	{% for photo in gallery.photos %}
+		<figure>
+			<img src="/assets/img/photos/medium/{{ photo.src }}" />
+			<figcaption>{{ photo.caption | markdownify }}</figcaption>
+		</figure>
+	{% endfor %}
+{% endfor %}

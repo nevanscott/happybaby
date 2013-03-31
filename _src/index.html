@@ -27,19 +27,10 @@ testimonials:
     attribution: Maud Newton
 ---
 
-<h4>Intro</h4>
-{{ page.intro | markdownify }}
-<hr />
-
-<h4>Synopsis</h4>
-{{ page.synopsis | markdownify }}
-<hr />
-
-<h4>Testimonials</h4>
+<h2>Testimonials</h2>
 {% for testimonial in page.testimonials %}
 	<blockquote>
 		{{ testimonial.quote | markdownify }}
 		<cite>{{ testimonial.attribution }}</cite>
 	</blockquote>
 {% endfor %}
-<hr />

@@ -17,7 +17,7 @@ team:
     name: Jessica Caldwell
     title: Producer
     bio: |
-      Originally from Orrs Island, Maine, [Jessica Caldwell](http://www.jesscaldwell.com) is an independent film producer based in New York City. She graduated from Mt. Ararat High School at 16, Manhattanville College at 19, and Columbia University's Graduate Film Program at 23. While at Columbia she produced 11 short films on location in Ireland, England, and various locations in the United States. Her first short film production, <cite>AWOL</cite>, premiered at the Sundance Film Festival in 2011. Her short film <cite>Delicacy</cite> premiered at the Telluride Film Festival in 2012. Her first feature film production <cite>Electrick Children</cite> premiered at the 2012 Berlin Film Festival and SXSW 2012, among many other prestigious film festivals. It will have theatrical distribution in the United States in March 2013. She graduated from Columbia University in the spring of 2012. She has multiple feature film projects in development. She is represented by Paradigm Talent Agency.  
+      Originally from Orrs Island, Maine, [Jessica Caldwell](http://www.jesscaldwell.com) is an independent film producer based in New York City. She graduated from Mt. Ararat High School at 16, Manhattanville College at 19, and Columbia University's Graduate Film Program at 23. While at Columbia she produced 11 short films on location in Ireland, England, and various locations in the United States. Her first short film production, <cite>AWOL</cite>, premiered at the Sundance Film Festival in 2011. Her short film <cite>Delicacy</cite> premiered at the Telluride Film Festival in 2012. Her first feature film production <cite>Electrick Children</cite> premiered at the 2012 Berlin Film Festival and SXSW 2012, among many other prestigious film festivals. It will have theatrical distribution in the United States in March 2013. She graduated from Columbia University in the spring of 2012. She has multiple feature film projects in development. She is represented by Paradigm Talent Agency.
 
 ---
 
@@ -27,6 +27,14 @@ It's the story of Theo, once an orphan in the New York foster care system, now a
 
 
 {% for person in page.team %}
-<h2>{{ person.name }}, {{ person.title }}</h2>
-{{ person.bio | markdownify }}
+
+----
+
+<hgroup>
+<h2>{{ person.name }}</h2>
+<h4>{{ person.title }}</h4>
+</hgroup>
+
+{{ person.bio }}
+
 {% endfor %}
