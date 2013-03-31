@@ -1,5 +1,11 @@
 <header>
-	<h1><a href="/">{{ page.site_title }}</a></h1>
+	<h1>
+		{% if page.section == 'home' %}
+			{{ page.site_title }}
+		{% else %}
+			<a href="/">{{ page.site_title }}</a>
+		{% endif %}
+	</h1>
 	<nav>
 		<ul>
 		{% for item in page.nav %}

@@ -12,4 +12,4 @@ mini_magick:
   medium:
     source: assets/img/photos/original
     destination: assets/img/photos/medium
-    resize: "600x400"
+    resize: "800x600"

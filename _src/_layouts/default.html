@@ -8,10 +8,6 @@ deck:
   - based on the novel Happy Baby
 nav:
   -
-    title: Home
-    slug: home
-    url: /
-  -
     title: About
     slug: about
     url: /about/
@@ -35,8 +31,9 @@ nav:
 <!doctype html>
 <html>
 {% include head.html %}
-<body>
+<body class="{{ page.class }}">
 	{% include header.html %}
 	{{ content }}
+	{% include footer.html %}
 </body>
 </html>
