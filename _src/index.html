@@ -1,0 +1,45 @@
+---
+layout: page
+section: home
+permalink: /
+intro: |
+  Happy Baby is a movie based on the novel of the same name by Stephen Elliott, declared, by the New York Times, as "Surely the most beautiful novel ever written about S&M, juvenile detention centers, and drugs."
+  
+  It's the story of Theo, once an orphan in the Detroit foster care system now a grown man living in California. He returns to Detroit to reconnect with the love of his life. You can read a chapter from the book [here](http://therumpus.net/2012/11/the-yard/).
+  
+  We're convinced we can make a quality compelling feature, outside of the system, for less than what feature movies are believed to cost. We're also convinced, because of running [The Rumpus](http://therumpus.net/), and making the movie [About Cherry](http://therumpus.net/cherry/trailer), that there are new and interesting ways to tell stories that don't require all the traditional methods. We think we can avoid the frustrations of institutional censorship and financing. And we can open ourselves to making a movie that invites, and takes advantage of, all the new avenues and advances in digital photography, distribution, and community and the result will be a better artistic creation.
+  
+  That's why this campaign is both about raising the necessary money to shoot the movie and also connecting with the people that want to see the movie, and including them in making the movie. We want to be in touch with the people who care the most about our work before, during, and after we finish shooting.
+
+synopsis: |
+  Here's the synopsis.
+  
+  > With a blockquote.
+  
+  Continuing.
+testimonials:
+  -
+    quote: |
+      I've always considered <cite>Happy Baby</cite> my favorite Stephen Elliott book, and we at McSweeney's were very proud to have a hand in publishing it. I feel like I know every word in the book, and not just because I did a line edit or two on it. It's written with such unvarnished, raw power, such unparalleled honesty, that it begins to feel like these are your own memories, that this was your own life. I'm happy that Stephen's making a movie out of it. The unique structure of it will translate well, and I think because the material is so personal to Steve, the result will be something very potent.
+    attribution: Dave Eggers
+  -
+    quote: One of my favorite books of the decade.
+    attribution: Maud Newton
+---
+
+<h4>Intro</h4>
+{{ page.intro | markdownify }}
+<hr />
+
+<h4>Synopsis</h4>
+{{ page.synopsis | markdownify }}
+<hr />
+
+<h4>Testimonials</h4>
+{% for testimonial in page.testimonials %}
+	<blockquote>
+		{{ testimonial.quote | markdownify }}
+		<cite>{{ testimonial.attribution }}</cite>
+	</blockquote>
+{% endfor %}
+<hr />

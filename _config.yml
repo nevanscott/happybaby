@@ -1,0 +1,6 @@
+source: ./_src
+destination: ./html
+asset_pipeline:
+  bundle: false
+  compress: false
+markdown: kramdown

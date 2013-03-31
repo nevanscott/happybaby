@@ -1,0 +1,27 @@
+<header>
+	<hgroup>
+		<h1>{{ page.site_title }}</h1>
+		<!-- <h2><span>{{ page.site_subtitle }}</span></h2> -->
+	</hgroup>
+<!-- 
+	<div class="deck">
+	{% for item in page.deck %}
+		<div class="line line{{ forloop.index }}">{{ item }}</div>
+	{% endfor %}
+	</div>
+ -->
+	<nav>
+		<ul>
+		{% for item in page.nav %}
+			<li class="
+				{% if forloop.first %}first{% endif %}
+				{% if forloop.last %}last{% endif %}
+				{% if item.slug == page.section %}active{% endif %}
+				{{ item.slug }}
+			">
+				<a href="{{ item.url }}">{{ item.title }}</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</nav>
+</header>
