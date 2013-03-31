@@ -15,7 +15,10 @@
 				{% if item.slug == page.section %}active{% endif %}
 				{{ item.slug }}
 			">
-				<a href="{{ item.url }}">{{ item.title }}</a>
+				<a href="{{ item.url }}">
+					<span class="title1">{{ item.title[0] }}</span>
+					<span class="title2">{{ item.title[1] }}</span>
+				</a>
 			</li>
 		{% endfor %}
 		</ul>

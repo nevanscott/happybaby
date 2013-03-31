@@ -63,9 +63,16 @@ header {
 			li {
 				display: inline;
 				a {
-					display: inline;
+					display: inline-block;
 					padding: 0 10px;
 					color: mix(white, @red, 60%);
+					span {
+						display: block;
+						&.title1 {
+							font-size: 60%;
+							line-height: 1;
+						}
+					}
 				}
 				&.active a {
 					color: white;
@@ -73,6 +80,8 @@ header {
 				&:after {
 					content: "/";
 					color: mix(black, @red, 25%);
+					position: relative;
+					top: -.4em;
 				}
 				&.last {
 					&:after {
