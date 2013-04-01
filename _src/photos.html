@@ -6,8 +6,23 @@ section: photos
 class: wide centered
 galleries:
   -
+    title: Filming the Mr. Gracie short
+    photos:
+      -
+        src: gracie-1.jpg
+        caption: TK
+      -
+        src: gracie-2.jpg
+        caption: TK
+      -
+        src: gracie-3.jpg
+        caption: TK
+  -
     title: Happy Baby in Los Angeles event
     photos:
+      -
+        src: la-basket.jpg
+        caption: TK
       -
         src: la-busch-urbaniak.jpg
         caption: Adam Busch interviews James Urbaniak, star of Mr. Gracie (Stephen Elliott’s short, based on a character from Happy Baby)
@@ -26,24 +41,10 @@ galleries:
       -
         src: la-chadburn.jpg
         caption: Melissa Chadburn
-      -
-        src: la-basket.jpg
-        caption: TK
-  -
-    title: Filming the Mr. Gracie short
-    photos:
-      -
-        src: gracie-1.jpg
-        caption: TK
-      -
-        src: gracie-2.jpg
-        caption: TK
-      -
-        src: gracie-3.jpg
-        caption: TK
 ---
 
 {% for gallery in page.galleries %}
+	<br>
 	<h2>{{ gallery.title }}</h2>
 	{% for photo in gallery.photos %}
 		<figure>

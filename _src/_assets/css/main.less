@@ -5,6 +5,7 @@
 
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
 	line-height: 1.4;
 	text-rendering: optimizeLegibility;
 }
@@ -50,10 +51,22 @@ header {
 		background: url(/assets/img/facepalm.png) 0 50% no-repeat;
 		display: inline-block;
 		padding: 0 80px 0 160px;
-		height: 170px;
-		line-height: 170px;
+		height: 140px;
+		line-height: 1.1;
+		padding-top: 30px;
 		margin: -40px auto;
 		text-shadow: 2px 2px 0 @red, 4px 4px 0 mix(black, @red, 20%);
+		span {
+			display: block;
+		}
+		@media all and (min-width: 35em) {
+			line-height: 170px;
+			padding-top: 0;
+			height: 170px;
+			span {
+				display: inline;
+			}
+		}
 	}
 	nav {
 		font-size: 1.5em;
@@ -67,6 +80,7 @@ header {
 				a {
 					display: inline-block;
 					padding: 0 10px;
+					margin: .25em 0;
 					color: mix(white, @red, 60%);
 					span {
 						display: block;
@@ -79,11 +93,13 @@ header {
 				&.active a {
 					color: white;
 				}
-				&:after {
-					content: "/";
-					color: mix(black, @red, 25%);
-					position: relative;
-					top: -.4em;
+				@media all and (min-width: 40em) {
+					&:after {
+						content: "/";
+						color: mix(black, @red, 25%);
+						position: relative;
+						top: -.4em;
+					}
 				}
 				&.last {
 					&:after {
@@ -97,8 +113,8 @@ header {
 
 article {
 	font-family: 'PT Serif', serif;
-	margin: 3em auto;
-	padding: 0 3em;
+	margin: 1.5em auto;
+	padding: 0 1.5em;
 	max-width: 35em;
 	body.wide & { max-width: none; }
 	body.centered & { text-align: center; }
@@ -140,21 +156,17 @@ article {
 
 #main {
 	overflow: hidden;
-	margin: 3em auto;
-	padding: 0 3em;
-	max-width: 55em;
+	margin: 1.5em auto;
+	padding: 0 1.5em;
+	max-width: 35em;
 	article {
 		max-width: none;
 		margin: 0;
 		padding: 0;
 	}
-	#content {
-		float: left;
-		width: 63%;
-	}
 	#sidebar {
-		float: right;
-		width: 33%;
+		max-width: 25em;
+		margin: auto;
 		h2 {
 			text-align: center;
 			text-transform: uppercase;
@@ -202,4 +214,25 @@ footer {
 	font-weight: 600;
 	text-align: center;
 	padding: 15px 0;
+}
+
+@media all and (min-width: 52em) {
+	body {
+		font-size: 16px;
+	}
+	article, #main {
+		margin: 3em auto;
+		padding: 0 3em;
+	}
+	#main {
+		max-width: 55em;
+		#content {
+			float: left;
+			width: 62%;
+		}
+		#sidebar {
+			float: right;
+			width: 33%;
+		}
+	}
 }
