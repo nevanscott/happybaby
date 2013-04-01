@@ -1,22 +1,7 @@
 ---
-layout: page
+layout: default
 section: home
 permalink: /
-intro: |
-  Happy Baby is a movie based on the novel of the same name by Stephen Elliott, declared, by the New York Times, as "Surely the most beautiful novel ever written about S&M, juvenile detention centers, and drugs."
-  
-  It's the story of Theo, once an orphan in the Detroit foster care system now a grown man living in California. He returns to Detroit to reconnect with the love of his life. You can read a chapter from the book [here](http://therumpus.net/2012/11/the-yard/).
-  
-  We're convinced we can make a quality compelling feature, outside of the system, for less than what feature movies are believed to cost. We're also convinced, because of running [The Rumpus](http://therumpus.net/), and making the movie [About Cherry](http://therumpus.net/cherry/trailer), that there are new and interesting ways to tell stories that don't require all the traditional methods. We think we can avoid the frustrations of institutional censorship and financing. And we can open ourselves to making a movie that invites, and takes advantage of, all the new avenues and advances in digital photography, distribution, and community and the result will be a better artistic creation.
-  
-  That's why this campaign is both about raising the necessary money to shoot the movie and also connecting with the people that want to see the movie, and including them in making the movie. We want to be in touch with the people who care the most about our work before, during, and after we finish shooting.
-
-synopsis: |
-  Here's the synopsis.
-  
-  > With a blockquote.
-  
-  Continuing.
 testimonials:
   -
     quote: |
@@ -25,12 +10,69 @@ testimonials:
   -
     quote: One of my favorite books of the decade.
     attribution: Maud Newton
+letter: |
+  Welcome... Bespoke cupidatat four loko freegan ullamco gluten-free, trust fund odd future cardigan small batch disrupt plaid non assumenda. Austin pop-up minim portland, retro VHS sed tempor chillwave craft beer. Scenester ut vinyl kogi ennui bicycle rights williamsburg. Aliqua fingerstache sustainable ugh letterpress, odio proident helvetica food truck master cleanse stumptown mcsweeney's sed.
+  
+  Readymade Austin scenester small batch occupy. Incididunt biodiesel thundercats marfa american apparel qui selvage, ea cliche. Cupidatat ethnic meh, try-hard trust fund tonx ugh cardigan voluptate kale chips nihil bushwick ut ethical.
+  
+  Pork belly pitchfork placeat ea, exercitation four loko ugh stumptown food truck brunch art party 8-bit sartorial synth consequat. Keffiyeh occupy raw denim odd future viral authentic incididunt master cleanse, polaroid consectetur nisi semiotics narwhal quinoa ullamco. Aute raw denim cupidatat est. Whatever pop-up qui, nulla proident vero plaid keytar placeat 90's. Shoreditch 90's anim, +1 duis mcsweeney's street art organic authentic pitchfork mustache vegan mollit. Beard gastropub enim, odd future consectetur culpa fugiat helvetica disrupt adipisicing keffiyeh carles squid iphone. Occaecat quis labore, truffaut umami skateboard mumblecore assumenda.
+  
+  ---Stephen
+social:
+  -
+    label: Kickstarter
+    icon: kickstarter
+    url: http://google.com/
+  -
+    label: Facebook
+    icon: facebook
+    url: http://google.com/
+  -
+    label: Twitter
+    icon: twitter
+    url: http://google.com/
+  -
+    label: Subscribe
+    icon: mail
+    url: http://google.com/
 ---
 
-<h2>Testimonials</h2>
-{% for testimonial in page.testimonials %}
-	<blockquote>
-		{{ testimonial.quote | markdownify }}
-		<cite>{{ testimonial.attribution }}</cite>
-	</blockquote>
-{% endfor %}
+<div id="main">
+	<article id="content">
+		<h1>Let’s make a movie!</h1>
+		{{ page.letter | markdownify }}
+		{% for testimonial in page.testimonials %}
+			<hr>
+			<blockquote>
+				{{ testimonial.quote | markdownify }}
+				<cite>—{{ testimonial.attribution }}</cite>
+			</blockquote>
+		{% endfor %}
+	</article>
+	<aside id="sidebar">
+		<section class="centered">
+			<h2>Presented by</h2>
+			<div>
+				<a href="http://therumpus.net"><img src="/assets/img/rumpus-bw-sm.png"></a>
+			</div>
+		</section>
+		<section>
+		<h2>Follow Happy Baby</h2>
+			<ul class="social">
+				{% for link in page.social %}
+					<li>
+						<a href="{{ link.url }}">
+							<i class="icon ss-{{ link.icon }}"></i>
+							{{ link.label }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</section>
+		<section>
+			<h2>Latest Dispatches</h2>
+			<a class="twitter-timeline" href="https://twitter.com/HappyBabyMovie" data-widget-id="318534284044537856">Tweets by @HappyBabyMovie</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</section>
+	</aside>
+</div>
