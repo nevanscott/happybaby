@@ -17,14 +17,17 @@ team:
     name: Jessica Caldwell
     title: Producer
     bio: |
-      Originally from Orrs Island, Maine, [Jessica Caldwell](http://www.jesscaldwell.com) is an independent film producer based in New York City. She graduated from Mt. Ararat High School at 16, Manhattanville College at 19, and Columbia University's Graduate Film Program at 23. While at Columbia she produced 11 short films on location in Ireland, England, and various locations in the United States. Her first short film production, <cite>AWOL</cite>, premiered at the Sundance Film Festival in 2011. Her short film <cite>Delicacy</cite> premiered at the Telluride Film Festival in 2012. Her first feature film production <cite>Electrick Children</cite> premiered at the 2012 Berlin Film Festival and SXSW 2012, among many other prestigious film festivals. It will have theatrical distribution in the United States in March 2013. She graduated from Columbia University in the spring of 2012. She has multiple feature film projects in development. She is represented by Paradigm Talent Agency.
+      Originally from Orrs Island, Maine, [Jessica Caldwell](http://www.jesscaldwell.com) is an independent film producer based in New York City. She graduated from Mt. Ararat High School at 16, Manhattanville College at 19, and Columbia University's Graduate Film Program at 23. While at Columbia she produced 11 short films on location in Ireland, England, and various locations in the United States. Her first short film production, <cite>AWOL</cite>, premiered at the Sundance Film Festival in 2011. Her short film <cite>Delicacy</cite> premiered at the Telluride Film Festival in 2012. Her first feature film production <cite>Electrick Children</cite> premiered at the 2012 Berlin Film Festival and SXSW 2012, among many other prestigious film festivals. <cite>Electrick Children</cite> opened at select theaters nationwide in March 2013.
 
 ---
 
-<cite>Happy Baby</cite> is a movie based on the novel of the same name by Stephen Elliott, declared by <cite>The New York Times</cite> as, "Surely the most beautiful novel ever written about S&M, juvenile detention centers, and drugs."
+<cite>Happy Baby</cite> is a movie based on the novel of the same name by Stephen Elliott, declared by <cite>The New York Times</cite> as, "Surely the most beautiful novel ever written about S&M, juvenile detention centers, and drugs," and chosen as a Best Book of the Year by [Salon.com](http://www.salon.com/2004/04/15/elliott_2/).
 
-It's the story of Theo, once an orphan in the New York foster care system, now a grown man living in California. He returns to New York to reconnect with the love of his life. You can read a chapter from the book [here](http://therumpus.net/2012/11/the-yard/).
+It's the story of Theo, once an orphan in the New York foster care system, now a grown man living in California. He returns to New York to reconnect with the love of his life.
 
+You can read a chapter from the book [here](http://therumpus.net/2012/11/the-yard/).
+
+You can read an excerpt from the script [here](/excerpt.pdf).
 
 {% for person in page.team %}
 
@@ -38,3 +41,17 @@ It's the story of Theo, once an orphan in the New York foster care system, now a
 {{ person.bio }}
 
 {% endfor %}
+
+----
+
+<h2>In the Press</h2>
+
+[An interview between Kickstarter and Stephen Elliott](http://kickstarter.tumblr.com/post/35523789996/interview-stephen-elliotts-movie-making), on making movies and crowd-sourcing funds for <cite>Happy Baby</cite>
+
+[Videos from “Let’s Make A Movie!”](http://therumpus.net/2012/11/check-out-the-videos-from-the-happy-baby-kickstarter-party/), the San Francisco fundraising event for <cite>Happy Baby</cite> co-hosted by The Rumpus and <cite>ZYZZYVA</cite>
+
+[<cite>The Stranger</cite> promotes the <cite>Happy Baby</cite> Kickstarter campaign](http://slog.thestranger.com/slog/archives/2012/12/07/do-you-know-who-stephen-elliott-is-do-you-know-the-rumpus-do-you-know-the-novel-happy-baby)
+
+[Masocast chats with Stephen Elliott](http://www.masocast.com/2013/03/17/stephen-elliott-returns/) about writing, life, and his recent foray into filmmaking (Stephen begins talking about <cite>Happy Baby</cite> around the 26:00 minute mark; due to the nature of this podcast, some material may be NSFW)
+
+Literary podcast [The Drunken Odyssey interviews Stephen Elliott and Isaac Fitzgerald](http://thedrunkenodyssey.com/2013/03/29/episode-42-stephen-elliott-isaac-fitzgerald-the-rumpus/) at AWP 2013 (lots of topics covered here—The Rumpus, Stephen’s writing—but Stephen starts talking about filmmaking around the 20:00 minute mark)
