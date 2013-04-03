@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How You Can Help
+title: Get Involved
 permalink: /donate/
 section: donate
 ---
