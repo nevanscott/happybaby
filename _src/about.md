@@ -27,7 +27,7 @@ It's the story of Theo, once an orphan in the New York foster care system, now a
 
 You can read a chapter from the book [here](http://therumpus.net/2012/11/the-yard/).
 
-You can read an excerpt from the script [here](/excerpt.pdf).
+You can read an excerpt from the script [here](/happy_baby_1.pdf).
 
 {% for person in page.team %}
 

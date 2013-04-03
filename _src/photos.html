@@ -6,29 +6,44 @@ section: photos
 class: wide centered
 galleries:
   -
-    title: Filming the Mr. Gracie short
+    title: Filming the <cite>Mr. Gracie</cite> short
     photos:
       -
-        src: gracie-1.jpg
-        caption: TK
+        src: gracie-slate.jpg
+      -
+        src: gracie-6.jpg
+      -
+        src: gracie-9.jpg
+        caption: Stephen Elliott works with cinematographer Darren Genet and assistant cameraman Ben Hardwicke to direct a scene for <cite>Mr. Gracie</cite>
+      -
+        src: gracie-5.jpg
+        caption: Stephen Elliott, on set
+      -
+        src: gracie-4.jpg
+        caption: James Urbaniak and Maxwell Chase
       -
         src: gracie-2.jpg
-        caption: TK
+        caption: James Urbaniak, between takes
       -
-        src: gracie-3.jpg
-        caption: TK
+        src: gracie-8.jpg
+        caption: James Urbaniak
+      -
+        src: gracie-1.jpg
+        caption: Sarah Sido
   -
     title: Happy Baby in Los Angeles event
+    credit: all photos copyright Jason Gutierrez
+    description: |
+      “Happy Baby in Los Angeles” was a fundraising event that took place on December 7, 2012 at Fix Coffee in L.A. There were lively readings, live sword-swallowing, and live interviews, and an auction with prizes that included a dozen books Los Angeles writers generously donated.
+      
+      In addition to this event, The Rumpus has held other <cite>Happy Baby</cite> fundraisers, co-hosting with ZYZZYVA in San Francisco, and with The Millions, HTMLGiant, <cite>BOMB Magazine</cite>, <cite>The Los Angeles Review of Books</cite>, and <cite>The New Inquiry</cite> in New York.
     photos:
       -
-        src: la-basket.jpg
-        caption: TK
-      -
         src: la-busch-urbaniak.jpg
-        caption: Adam Busch interviews James Urbaniak, star of Mr. Gracie (Stephen Elliott’s short, based on a character from Happy Baby)
+        caption: Adam Busch interviews James Urbaniak, star of <cite>Mr. Gracie</cite>
       -
         src: la-bearman.jpg
-        caption: Joshuah Bearman talks about how his Wired article turned into the movie Argo
+        caption: Joshuah Bearman talks about how his <cite>Wired</cite> article turned into the movie <cite>Argo</cite>
       -
         src: la-loudermilk-apekina.jpg
         caption: Brett Loudermilk threatens Katya Apekina with a sword...
@@ -40,16 +55,39 @@ galleries:
         caption: The comedic stylings of Kyle Kinane
       -
         src: la-chadburn.jpg
-        caption: Melissa Chadburn
+        caption: Melissa Chadburn banters with the audience
+      -
+        src: la-troeh-ruiz.jpg
+        caption: Eve Troeh and Rumpus Saturday Editor Zoë Ruiz host “Happy Baby in Los Angeles”
+      -
+        src: la-lauren.jpg
+        caption: Jillian Lauren, during a moment of reflection
+      -
+        src: la-bender.jpg
+        caption: Aimee Bender, reading from a short story 
+      -
+        src: la-zuniga.jpg
+        caption: Adrian Todd Zuniga, reading from his short story “Matter” 
+      -
+        src: la-patrick.jpg
+        caption: Tera Patrick, reading from her memoir <cite>Sinner Takes All</cite>
+      -
+        src: la-basket.jpg
 ---
 
 {% for gallery in page.galleries %}
 	<br>
 	<h2>{{ gallery.title }}</h2>
+	{% if gallery.credit %}<h3>{{ gallery.credit }}</h3>{% endif %}
+	{% if gallery.description %}
+		<div class="description">{{ gallery.description | markdownify }}</div>
+	{% endif %}
 	{% for photo in gallery.photos %}
 		<figure>
 			<img src="/assets/img/photos/medium/{{ photo.src }}" />
-			<figcaption>{{ photo.caption | markdownify }}</figcaption>
+			{% if photo.caption %}
+				<figcaption>{{ photo.caption | markdownify }}</figcaption>
+			{% endif %}
 		</figure>
 	{% endfor %}
 {% endfor %}

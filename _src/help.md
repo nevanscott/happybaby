@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Get Involved
-permalink: /donate/
-section: donate
+permalink: /help/
+section: help
 ---
 
 We need volunteers, extras, locations, and donations.
@@ -37,7 +37,7 @@ Interested in donating? [Hit us up.](mailto:rubenstein@therumpus.net) (We are al
 Locations
 ---------
 
-We’re almost there, but we’re still looking for a few places to shoot. If you have access to or own any of the following spaces, and would be interested in letting us use them, please let us know. [link: mailto:rubenstein@therumpus.net] You could also volunteer to pay rent for a location.
+We’re almost there, but we’re still looking for a few places to shoot. If you have access to or own any of the following spaces, and would be interested in letting us use them, please [let us know](mailto:rubenstein@therumpus.net). You could also volunteer to pay rent for a location.
 
 What we need:
 
