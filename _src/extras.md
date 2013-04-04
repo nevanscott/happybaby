@@ -11,4 +11,4 @@ For our most extensive, extra-heavy scene, we’re looking for young African-Ame
 
 If you’re interested, please contact April Xiong at [april.xiong@gmail.com](mailto:april.xiong@gmail.com).
 
-You can also follow Happy Baby [on Twitter](https://twitter.com/HappyBabyMovie) for complete extras updates.
+You can also follow <cite>Happy Baby</cite> [on Twitter](https://twitter.com/HappyBabyMovie) for complete extras updates.
