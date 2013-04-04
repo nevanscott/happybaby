@@ -7,6 +7,7 @@ team:
   -
     name: Stephen Elliott
     title: Director/Writer
+    photo: elliott.jpg
     bio: |
       [Stephen Elliott](http://stephenelliott.com) is the author of seven books including <cite>The Adderall Diaries</cite>, which has been described as "genius" by both the <cite>San Francisco Chronicle</cite> and <cite>Vanity Fair</cite>. <cite>The Adderall Diaries</cite> was the best book of the year in <cite>Time Out New York</cite>, a Best of 2009 in <cite>Kirkus Reviews</cite>, and one of 50 Notable Books in the <cite>San Francisco Chronicle</cite>.
       
@@ -16,6 +17,7 @@ team:
   -
     name: Jessica Caldwell
     title: Producer
+    photo: caldwell.jpg
     bio: |
       Originally from Orrs Island, Maine, [Jessica Caldwell](http://www.jesscaldwell.com) is an independent film producer based in New York City. She graduated from Mt. Ararat High School at 16, Manhattanville College at 19, and Columbia University's Graduate Film Program at 23. While at Columbia she produced 11 short films on location in Ireland, England, and various locations in the United States. Her first short film production, <cite>AWOL</cite>, premiered at the Sundance Film Festival in 2011. Her short film <cite>Delicacy</cite> premiered at the Telluride Film Festival in 2012. Her first feature film production <cite>Electrick Children</cite> premiered at the 2012 Berlin Film Festival and SXSW 2012, among many other prestigious film festivals. <cite>Electrick Children</cite> opened at select theaters nationwide in March 2013.
 
@@ -32,6 +34,8 @@ You can read an excerpt from the script [here](/happy_baby_1.pdf).
 {% for person in page.team %}
 
 ----
+
+<img class="right" src="/assets/img/photos/small/{{ person.photo }}" />
 
 <hgroup>
 <h2>{{ person.name }}</h2>

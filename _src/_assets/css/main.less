@@ -20,7 +20,17 @@ a {
 	}
 }
 
-img { max-width: 100%; }
+img {
+	max-width: 100%;
+	&.right {
+		float: right;
+		margin: .5em 0 1em 1em;
+	}
+	&.left {
+		float: left;
+		margin: .5em 1em 1em 0;
+	}
+}
 
 hr {
 	border: none;
