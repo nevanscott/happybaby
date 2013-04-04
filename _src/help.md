@@ -64,3 +64,5 @@ Other Needs
 -----------
 
 We need cars and drivers to move crews and equipment. If you're not available to drive but have a car we can use, [let's talk](mailto:rubenstein@therumpus.net). We also need a truck, a passenger van, and secured overnight parking.
+
+We also have to fly some people here, so if you have airline miles you're willing to donate, that would be amazing. You don't have to donate a full ticket. Maybe you've just got a thousand miles laying around you know you're never going to use because you don't even like that airline. We can take those off your hands. That would save us big time.
