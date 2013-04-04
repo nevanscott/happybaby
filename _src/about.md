@@ -10,7 +10,7 @@ team:
     bio: |
       [Stephen Elliott](http://stephenelliott.com) is the author of seven books including <cite>The Adderall Diaries</cite>, which has been described as "genius" by both the <cite>San Francisco Chronicle</cite> and <cite>Vanity Fair</cite>. <cite>The Adderall Diaries</cite> was the best book of the year in <cite>Time Out New York</cite>, a Best of 2009 in <cite>Kirkus Reviews</cite>, and one of 50 Notable Books in the <cite>San Francisco Chronicle</cite>.
       
-      His novel, <cite>Happy Baby</cite>, was a finalist for the New York Public Library's Young Lion Award, as well as a best book of the year in Salon.com, <cite>Newsday</cite>, <cite>Chicago New City</cite>, <cite>The Journal News</cite>, and <cite>The Village Voice</cite>.
+      His novel, <cite>Happy Baby</cite>, was a finalist for the New York Public Library's Young Lion Award, as well as a Best Book of the Year in Salon.com, <cite>Newsday</cite>, <cite>Chicago New City</cite>, <cite>The Journal News</cite>, and <cite>The Village Voice</cite>.
       
       Elliott's writing has been featured in <cite>Esquire</cite>, <cite>The New York Times</cite>, <cite>The Believer</cite>, <cite>GQ</cite>, <cite>Best American Non-Required Reading 2005</cite> and <cite>2007</cite>, <cite>Best American Erotica</cite>, and <cite>Best Sex Writing 2006</cite>. He is the editor of [The Rumpus](http://therumpus.net).
   -
