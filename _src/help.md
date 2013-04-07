@@ -29,8 +29,6 @@ Here are a few ways you can help feed our cast and crew:
 	
 	If you’re reading this, and you either work in or own an eating establishment (stationary or mobile), and you’d like to help a low-budget indie feature out, we’d love to talk to you. [Please contact us!](mailto:rubenstein@therumpus.net)
 
-We’ll also have a craft services table on set, so if you’re thinking, <i>Man, I want to help, but all I can do is make cookies</i>, we’ll take whatever you want to drop off! Food made with love is always food worth having.
-
 Interested in donating? [Hit us up.](mailto:rubenstein@therumpus.net) (We are also looking for a few hard-working [volunteers](/volunteer/) to help man the craft services table, make coffee runs, and do all sorts of food-related stuff.)
 
 
