@@ -12,25 +12,6 @@ It’s not always obvious, but movies are made by tons of people—communities o
 For inquiries, or to express interest in donating or volunteering, please contact Rebecca Rubenstein at [rubenstein@therumpus.net](mailto:rubenstein@therumpus.net).
 
 
-Food
-----
-
-Here are a few ways you can help feed our cast and crew:
-
-1. ### Cook meals:
-	
-	We’re looking for volunteers interested in cooking meals for about 30 people, give or take. We’re not necessarily looking for someone who would do this full-time (although we’d love you if you could), but even one donated, homecooked meal would make a huge difference.
-
-2. ### Donate a meal:
-	
-	If you can’t bring a meal to set, but would still like to help out in this capacity, we’re taking monetary donations so we can feed everyone and support local eateries. If you’d like to sponsor a meal, you can do it for $400.
-
-3. ### Donate food from your own restaurant, café, or food truck:
-	
-	If you’re reading this, and you either work in or own an eating establishment (stationary or mobile), and you’d like to help a low-budget indie feature out, we’d love to talk to you. [Please contact us!](mailto:rubenstein@therumpus.net)
-
-Interested in donating? [Hit us up.](mailto:rubenstein@therumpus.net) (We are also looking for a few hard-working [volunteers](/volunteer/) to help man the craft services table, make coffee runs, and do all sorts of food-related stuff.)
-
 
 Locations
 ---------
@@ -55,6 +36,27 @@ What we need:
 * ### Marco's Work:
 	
 	Open-back construction truck.
+
+
+
+Food
+----
+
+Here are a few ways you can help feed our cast and crew:
+
+1. ### Cook meals:
+	
+	We’re looking for volunteers interested in cooking meals for about 30 people, give or take. We’re not necessarily looking for someone who would do this full-time (although we’d love you if you could), but even one donated, homecooked meal would make a huge difference.
+
+2. ### Donate a meal:
+	
+	If you can’t bring a meal to set, but would still like to help out in this capacity, we’re taking monetary donations so we can feed everyone and support local eateries. If you’d like to sponsor a meal, you can do it for $400.
+
+3. ### Donate food from your own restaurant, café, or food truck:
+	
+	If you’re reading this, and you either work in or own an eating establishment (stationary or mobile), and you’d like to help a low-budget indie feature out, we’d love to talk to you. [Please contact us!](mailto:rubenstein@therumpus.net)
+
+Interested in donating? [Hit us up.](mailto:rubenstein@therumpus.net) (We are also looking for a few hard-working [volunteers](/volunteer/) to help man the craft services table, make coffee runs, and do all sorts of food-related stuff.)
 
 
 
