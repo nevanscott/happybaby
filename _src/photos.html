@@ -8,6 +8,7 @@ galleries:
   -
     title: Filming the <cite>Mr. Gracie</cite> short
     credit: all photos copyright Richard Parks
+    more: You can watch <cite>Mr. Gracie</cite>, a short film based on a character from <cite>Happy Baby</cite>, [here](http://vimeo.com/54385416).
     photos:
       -
         src: gracie-slate.jpg
@@ -80,6 +81,7 @@ galleries:
 	<br>
 	<h2>{{ gallery.title }}</h2>
 	{% if gallery.credit %}<h3>{{ gallery.credit }}</h3>{% endif %}
+	{% if gallery.more %}{{ gallery.more | markdownify }}{% endif %}
 	{% if gallery.description %}
 		<div class="description">{{ gallery.description | markdownify }}</div>
 	{% endif %}
