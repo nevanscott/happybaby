@@ -54,7 +54,7 @@ You can watch <cite>Mr. Gracie</cite>, a short film based on a character from <c
 
 [An interview between Kickstarter and Stephen Elliott](http://kickstarter.tumblr.com/post/35523789996/interview-stephen-elliotts-movie-making), on making movies and crowdsourcing funds for <cite>Happy Baby</cite>
 
-[<cite>TriQuarterly</cite> interviews Stephen Elliott](http://triquarterly.org/interviews/stephen-elliott-interview) about <cite>Happy Baby</cite>, and his transition from writing novels to making films
+[<cite>TriQuarterly</cite> interviews Stephen Elliott](http://triquarterly.org/interviews/stephen-elliott-interview) about <cite>Happy Baby</cite>, and his transition from writing books to making films
 
 [Videos from “Let’s Make A Movie!”](http://therumpus.net/2012/11/check-out-the-videos-from-the-happy-baby-kickstarter-party/), the San Francisco fundraising event for <cite>Happy Baby</cite> co-hosted by The Rumpus and <cite>ZYZZYVA</cite>
 
