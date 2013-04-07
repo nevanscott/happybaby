@@ -5,7 +5,7 @@ permalink: /help/
 section: help
 ---
 
-We need volunteers, extras, locations, and donations.
+We need [volunteers](/volunteer/), [extras](/extras/), locations, and donations.
 
 It’s not always obvious, but movies are made by tons of people—communities of hard-working, committed individuals who really believe in the project, in what it stands for and what the final outcome will be. We’re making <cite>Happy Baby</cite> with this sort of mentality in mind. We want to make something from our hearts, and your hearts, too. 
 
