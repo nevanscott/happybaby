@@ -31,6 +31,8 @@ You can read a chapter from the book [here](http://therumpus.net/2012/11/the-yar
 
 You can read an excerpt from the script [here](/happy_baby_1.pdf).
 
+You can watch <cite>Mr. Gracie</cite>, a short film based on a character from <cite>Happy Baby</cite>, [here](http://vimeo.com/54385416).
+
 {% for person in page.team %}
 
 ----
