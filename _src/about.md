@@ -52,6 +52,8 @@ You can read an excerpt from the script [here](/happy_baby_1.pdf).
 
 [An interview between Kickstarter and Stephen Elliott](http://kickstarter.tumblr.com/post/35523789996/interview-stephen-elliotts-movie-making), on making movies and crowdsourcing funds for <cite>Happy Baby</cite>
 
+[<cite>TriQuarterly</cite> interviews Stephen Elliott](http://triquarterly.org/interviews/stephen-elliott-interview) about <cite>Happy Baby</cite>, and his transition from writing novels to making films
+
 [Videos from “Let’s Make A Movie!”](http://therumpus.net/2012/11/check-out-the-videos-from-the-happy-baby-kickstarter-party/), the San Francisco fundraising event for <cite>Happy Baby</cite> co-hosted by The Rumpus and <cite>ZYZZYVA</cite>
 
 [<cite>The Stranger</cite> promotes the <cite>Happy Baby</cite> Kickstarter campaign](http://slog.thestranger.com/slog/archives/2012/12/07/do-you-know-who-stephen-elliott-is-do-you-know-the-rumpus-do-you-know-the-novel-happy-baby)
