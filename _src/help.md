@@ -13,6 +13,20 @@ For inquiries, or to express interest in donating or volunteering, please contac
 
 
 
+Props
+-----
+
+We’re almost there, but we’re still looking for a few props. If you have access to or own any of the following props, and would be interested in letting us use them, [please let us know](mailto:rubenstein@therumpus.net):
+
+* pick-up trucks (1995 or earlier)<sup>*</sup>
+* old cars (also 1995 or earlier)<sup>*</sup>
+* beer signs
+* an old square television (if possible, with a 1.33 aspect ratio)
+* twin beds
+
+<sup>*</sup>We will need these vehicles for one day each.
+
+
 
 Food
 ----
