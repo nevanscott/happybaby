@@ -13,31 +13,6 @@ For inquiries, or to express interest in donating or volunteering, please contac
 
 
 
-Locations
----------
-
-We’re almost there, but we’re still looking for a few places to shoot. If you have access to or own any of the following spaces, and would be interested in letting us use them, please [let us know](mailto:rubenstein@therumpus.net). You could also volunteer to pay rent for a location.
-
-What we need:
-
-
-* ### Maria's Apartment:
-	
-	Comfortable, one bedroom apartment. 
-* ### Theo's Work:
-	
-	Office and filing room.
-* ### Youngest Theo's home:
-	
-	An apartment or house where Theo lives with his parents in 1995. Includes a shot in the living room with his sick mother watching television. Bathroom. Bedroom. And kitchen. We should be able to shoot this out in one day.
-* ### Movie Theater:
-	
-	That's right, we said it. There is a scene set in a movie theater.
-* ### Marco's Work:
-	
-	Open-back construction truck.
-
-
 
 Food
 ----
