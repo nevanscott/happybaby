@@ -33,6 +33,32 @@ You can read an excerpt from the script [here](/happy_baby_1.pdf).
 
 You can watch <cite>Mr. Gracie</cite>, a short film based on a character from <cite>Happy Baby</cite>, [here](http://vimeo.com/54385416).
 
+----
+
+<div class="centered">
+
+<h2>Executive Producers</h2>
+<div>Katch Campbell</div>
+<div>Stephan Cox</div>
+<div>Arthur Dessein</div>
+<div>Marie Slaight</div>
+<br>
+
+<h2>Production Company</h2>
+<div>The Rumpus Inc.</div>
+<br>
+
+<h2>Co-Production Company</h2>
+<div>Act Zero Films</div>
+<br>
+
+<h2>In association with</h2>
+<div>Altaire Productions</div>
+<div>Innovatus</div>
+
+</div>
+
+
 {% for person in page.team %}
 
 ----
